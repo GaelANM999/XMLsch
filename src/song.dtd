@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Canciones (Cancion)*>
+        <!ELEMENT Cancion (Duracion,Anio,Titulo,Compositores,Productores,Sello,Artista)+>
+        <!ELEMENT Duracion (#PCDATA)>
+        <!ELEMENT Anio (#PCDATA)>
+        <!ELEMENT Titulo (#PCDATA)>
+        <!ELEMENT Compositores (Compositor)+>
+        <!ELEMENT Compositor (Nombres,Apellidos)+>
+        <!ELEMENT Nombres (#PCDATA)>
+        <!ELEMENT Apellidos (#PCDATA)>
+        <!ELEMENT Productores (Productor)+>
+        <!ELEMENT Productor (Nombres,Apellidos)+>
+        <!ELEMENT Sello (#PCDATA)>
+        <!ELEMENT Artista (#PCDATA)>

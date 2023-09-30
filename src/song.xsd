@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Canciones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Cancion" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Duracion" type="xs:string" />
+              <xs:element name="Anio" type="xs:string" />
+              <xs:element name="Titulo" type="xs:string" />
+              <xs:element name="Compositores">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Compositor" maxOccurs="unbounded" minOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Nombres" type="xs:string" />
+                          <xs:element name="Apellidos" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Productores">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Productor" maxOccurs="unbounded" minOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Nombres" type="xs:string" />
+                          <xs:element name="Apellidos" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Sello" type="xs:string" />
+              <xs:element name="Artista" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

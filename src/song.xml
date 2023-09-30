@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Canciones SYSTEM "song.dtd">
+
+<Canciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="song.xsd">
+    <Cancion>
+        <Duracion>7:34</Duracion>
+        <Anio>2008</Anio>
+        <Titulo>Pink Maggit</Titulo>
+        <Compositores>
+            <Compositor>
+                <Nombres>Abe</Nombres>
+                <Apellidos>Cunningham</Apellidos>
+            </Compositor>
+            <Compositor>
+                <Nombres>Camilo</Nombres>
+                <Apellidos>Wong</Apellidos>
+            </Compositor>
+            <Compositor>
+                <Nombres>Chi</Nombres>
+                <Apellidos>Cheng</Apellidos>
+            </Compositor>
+            <Compositor>
+                <Nombres>Stephen</Nombres>
+                <Apellidos>Carpenter</Apellidos>
+            </Compositor>
+        </Compositores>
+        <Productores>
+            <Productor>
+                <Nombres>Terry</Nombres>
+                <Apellidos>Date</Apellidos>
+            </Productor>
+        </Productores>
+        <Sello>Maverick Recording Company</Sello>
+        <Artista>Deftones</Artista>
+    </Cancion>
+    <Cancion>
+        <Duracion>3:12</Duracion>
+        <Anio>2022</Anio>
+        <Titulo>In my head</Titulo>
+        <Compositores>
+            <Compositor>
+                <Nombres>Jeremy</Nombres>
+                <Apellidos>Brown</Apellidos>
+            </Compositor>
+        </Compositores>
+        <Productores>
+            <Productor>
+                <Nombres>Max</Nombres>
+                <Apellidos>Lord</Apellidos>
+            </Productor>
+        </Productores>
+        <Sello>Grade A Productions</Sello>
+        <Artista>Juice WRLD</Artista>
+    </Cancion>
+    <Cancion>
+        <Duracion>4:12</Duracion>
+        <Anio>2023</Anio>
+        <Titulo>MY EYES</Titulo>
+        <Compositores>
+            <Compositor>
+                <Nombres>Travis</Nombres>
+                <Apellidos>Scott</Apellidos>
+            </Compositor>
+        </Compositores>
+        <Productores>
+            <Productor>
+                <Nombres>Travis</Nombres>
+                <Apellidos>Scott</Apellidos>
+            </Productor>
+        </Productores>
+        <Sello>Cactus Jack Records</Sello>
+        <Artista>Travis Scott</Artista>
+    </Cancion>
+</Canciones>
